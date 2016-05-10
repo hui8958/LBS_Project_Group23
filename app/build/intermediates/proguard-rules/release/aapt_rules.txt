@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.android.LBS.Group23_Project.MainActivity { <init>(...); }
+
