@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
 				if (flg == 0) {
 					secondNumber = print.getText().toString();
 					if (take == Counts.DIVIDE && secondNumber.equals("0")) {
-						print.setText("0����Ϊ������");
+						print.setText("ERROR");
 					} else {
 						num = take.Values(fistNumber, secondNumber);
 						fistNumber = num;
